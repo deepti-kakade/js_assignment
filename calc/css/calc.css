@@ -1,0 +1,85 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+html {
+  height: 100%;
+  background: white;
+}
+
+body{
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+}
+
+.clearfix{
+  clear: both;
+}
+
+#calculator {
+  width: 285px;
+  margin: 100px auto;
+  padding: 20px 20px 10px;
+  background: gray;
+}
+
+
+.top .clear {
+  float: left;
+  position: relative;
+  top: 0;
+  cursor: pointer;
+  width: 65px;
+  height: 35px;
+  margin: 0 7px 11px 0;
+  background: pink;
+  line-height: 36px;
+  text-align: center;
+  user-select: none;
+}
+
+
+.top .result {
+  height: 35px;
+  width: 192px;
+  float: right;
+  padding: 0 10px;
+  background: white;
+  font-size: 17px;
+  line-height: 40px;
+  text-align: right;
+}
+
+
+
+.keys span {
+  float: left;
+  position: relative;
+  top: 0;
+  cursor: pointer;
+  width: 66px;
+  height: 36px;
+  background: white;
+  margin: 0 7px 11px 0;
+  line-height: 36px;
+  text-align: center;
+  user-select: none;
+}
+
+
+.keys .operator {
+  float: right;
+  margin-right: 0;
+  background: pink;
+}
+
+
+
+
+
+
